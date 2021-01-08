@@ -1,0 +1,35 @@
+.popup {
+  width: 100%;
+  max-width: 900px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 2;
+}
+
+.popup__video {
+  width: 100%;
+}
+
+.popup__button-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.popup__button {
+  margin-top: 20px;
+  width: 100px;
+  background-color: transparent;
+  border: solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.popup__button:hover {
+  cursor: pointer;
+  border: solid yellow;
+}

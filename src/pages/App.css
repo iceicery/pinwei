@@ -1,0 +1,48 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/font/font.css);
+
+.lobster {
+  font-family: "Lobster", "Inter", "Arial Narrow Bold", sans-serif;
+}
+
+.page {
+  background-color: #141414;
+  color: #fff;
+  width: 100%;
+  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  position: relative;
+}
+
+.menu-icon {
+  width: 30px;
+  object-fit: contain;
+  position: fixed;
+  z-index: 2;
+  top: 30px;
+  right: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.content {
+  top: 0;
+  bottom: 0;
+  background-color: #101010;
+  color: #fff;
+  overflow: auto;
+  width: vw;
+  position: relative;
+}

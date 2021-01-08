@@ -1,0 +1,162 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+  flex-wrap: wrap;
+  z-index: 4;
+}
+
+.menu__container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+  .menu__container {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+  }
+}
+.menu__develope {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.menu__emoji {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.menu__img-box {
+  width: 50%;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__img-box {
+    height: 100%;
+    width: 100%;
+  }
+}
+.menu__subtitle-box {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__list-box {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__list-box {
+    padding: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+.menu__list {
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid 0.8px #fff;
+  list-style: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__list {
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    border: solid 0.8px #fff;
+  }
+}
+
+.menu__list:hover {
+  border: solid 0.8px rgba(255, 255, 0, 0.8);
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.menu__selfie {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  object-fit: cover;
+}
+
+.menu__container:hover .menu__selfie {
+  opacity: 1;
+}
+.menu__subtitle {
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__subtitle {
+    font-size: 15px;
+  }
+}
+.menu__text-box {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__text-box {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.menu__title {
+  padding-left: 30px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__title {
+    font-size: 30px;
+  }
+}
+.menu__title-hi {
+  font-family: "Lobster";
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .menu__title-hi {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+}

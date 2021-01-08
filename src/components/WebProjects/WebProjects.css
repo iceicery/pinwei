@@ -1,0 +1,122 @@
+.projects {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+}
+.projects__text {
+  font-size: 40px;
+  text-align: center;
+}
+.projects__title {
+  font-size: 15px;
+  font-weight: normal;
+}
+.projects__box {
+  list-style: none;
+  padding: 0;
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.projects__item {
+  border: solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  max-width: 90%;
+  width: 300px;
+}
+.projects__img-box {
+  width: 100%;
+  position: relative;
+}
+
+.projects__button-box {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.projects__button {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  border: solid #fff 0.5px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.projects__button-link {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.projects__button:hover {
+  border: solid #2f80ed 0.5px;
+  cursor: pointer;
+}
+
+.projects__img {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 0.1px #fff;
+}
+
+.projects__img-box:hover .projects__button-box {
+  opacity: 1;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  gap: 20px;
+}
+.projects__tech {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+.projects__tech-item {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  padding: 8px;
+  border: solid #fff 0.2px;
+  border-radius: 10px;
+}
+.projects__tech-link {
+  background-color: #2f80ed;
+}
+
+.projects__tech-link:hover {
+  border: solid 0.3px rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  border: solid lightskyblue;
+}
+
+@media screen and (max-width: 600px) {
+  .projects__tech-item {
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 0.2px solid #fff;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

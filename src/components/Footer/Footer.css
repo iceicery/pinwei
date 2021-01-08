@@ -1,0 +1,117 @@
+.footer {
+  background-color: #101010;
+  color: rgba(255, 255, 255, 0.6);
+  border-top: solid rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  display: flex;
+  margin: 0;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+.footer__box1 {
+  display: flex;
+  align-items: baseline;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__box1 {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+.footer__box2 {
+  display: flex;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__box2 {
+    flex-direction: column;
+  }
+}
+.footer__icon-github {
+  background-image: url("../../images/GitHub-Mark-Light-32px.png");
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  border: solid 0.1px transparent;
+}
+
+.footer__icon-github:hover {
+  background-image: url("../../images/GitHub-Mark-Light-32px.png");
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  opacity: 80%;
+  cursor: pointer;
+  border: solid 0.1px lightblue;
+}
+.footer__icon-linkedin {
+  background-image: url("../../images/LI-In-Bug.png");
+  background-size: 100%;
+  background-position: bottom;
+  margin-right: 20px;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+}
+
+.footer__icon-linkedin:hover {
+  background-image: url("../../images/LI-In-Bug.png");
+  background-size: 100%;
+  background-position: bottom;
+  margin-right: 20px;
+  opacity: 80%;
+  cursor: pointer;
+  border: solid 0.1px lightblue;
+}
+.footer__icons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__subtitle {
+    font-size: 15px;
+  }
+}
+.footer__title {
+  font-family: "Lobster";
+  padding: 3px;
+  border-bottom: solid 0.2px #fff;
+  margin-right: 10px;
+}
+@media screen and (max-width: 600px) {
+  .footer__title {
+    font-size: 15px;
+  }
+}
+
+.footer__color {
+  background-color: #00b3b3;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__color {
+    padding: 5px 5px 0 5px;
+    flex-direction: column;
+  }
+}
