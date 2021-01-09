@@ -1,19 +1,26 @@
 @font-face {
-    font-family: "Inter";
-    src: url('./Inter-bold.ttf');
-    font-weight: bold;
-    font-display: swap;
+  font-family: "Inter";
+  src: url("./Inter-bold.ttf");
+  font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Inter";
-    src: url('./Inter-regular.ttf');
-    font-weight: normal;
-    font-display: swap;
+  font-family: "Inter";
+  src: url("./Inter-regular.ttf");
+  font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Lobster";
-    src: url(./Lobster/Lobster-Regular.ttf);
-    font-display: swap;
+  font-family: "Lobster";
+  src: url(./Lobster/Lobster-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto_Mono";
+  src: url(./Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+  font-display: swap;
+  font-weight: 500;
 }

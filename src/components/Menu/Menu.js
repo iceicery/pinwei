@@ -1,10 +1,6 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
 import './Menu.css';
-import developer from '../../images/developer.jpg';
-import avatar from '../../images/head.jpg';
-import emoji from '../../images/emoji-2.jpg';
-function Menu() {
+export default function Menu() {
     return (
         <header className="menu">
             <div className="menu__background">
@@ -17,23 +13,8 @@ function Menu() {
                         <li className="menu__subtitle">Statistic Specialist ,</li>
                         <li className="menu__subtitle">Physics Background</li>
                     </ul>
-                    {/*
-                    <menu className="menu__list-box">
-                        <Link to="/projects" className="menu__list">Web Projects</Link>
-                        <Link to="/learning" className="menu__list">Learning Track</Link>
-                        <Link to="/before" className="menu__list">Before Coding</Link>
-                        {/*
-                    <Link to="/interests" className="header__menu-list">Interests</Link>
-                    <a href="https://iceicery.github.io/pinwei/"
-                        target="_blank"
-                        rel="noreferrer"><li className="header__menu-list">One Page Summary</li></a>
-                    *
-
-                    </menu> */}
                 </div>
             </div>
         </header >
     )
 }
-
-export default withRouter(Menu);
