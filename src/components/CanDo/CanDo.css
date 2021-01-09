@@ -16,11 +16,12 @@
   gap: 50px;
 }
 
+.cando__item {
+  position: relative;
+}
+
 .cando__text {
   display: none;
-  text-align: center;
-  font-size: 12px;
-  font-family: "Roboto_Mono";
 }
 
 .cando__img {
@@ -30,4 +31,20 @@
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+.cando__img:hover {
+  opacity: 0.8;
+}
+.cando__img:hover + .cando__text {
+  position: absolute;
+  z-index: 2;
+  top: -40px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Roboto_Mono";
+  display: inline;
 }
