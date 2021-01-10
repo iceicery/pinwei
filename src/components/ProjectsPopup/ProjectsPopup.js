@@ -6,7 +6,7 @@ export default function ProjectsPopup({ isOpen, project, link, handleClose }) {
         <>
             <div className={overlayClass}></div>
             <section className={popupClass}>
-                <iframe title="demo" className="popup__video" width="560" height="315" src={project} frameBorder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen allow="autoplay; geolocation" ></iframe>
+                <iframe title="demo" className="popup__video" width="560" height="315" src={project} frameBorder="0" allowFullScreen allow="autoplay" ></iframe>
                 <div className="popup__button-box">
                     <a
                         href={link}

@@ -5,7 +5,8 @@
   height: 100%;
 }
 .learning__text {
-  margin-top: 50px;
+  margin: 50px 0 0 0;
+  padding: 0;
   font-size: 40px;
   text-align: center;
 }
@@ -13,7 +14,7 @@
 .learning__box {
   list-style: none;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

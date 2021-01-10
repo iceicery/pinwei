@@ -12,6 +12,7 @@ import ProjectsPopup from './components/ProjectsPopup/ProjectsPopup';
 import menuIcon from './images/menu.png';
 import ReactGA from 'react-ga';
 import CanDo from './components/CanDo/CanDo';
+import Form from './components/Form/Form';
 
 const trackingId = "UA-126824471-1"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
@@ -60,6 +61,9 @@ function App() {
         </Element>
         <Element id="before" name="before">
           <Before />
+        </Element>
+        <Element id="form" name="form">
+          <Form />
         </Element>
       </React.Fragment>
       <Footer />
