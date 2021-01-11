@@ -21,7 +21,7 @@ export default function Header({ isOpen, handleHeaderClose }) {
                 <button className='header__menu-list-adjust' ><ScrollLink to="projects" smooth={true} duration={500} spy={true} offset={-120}>Projects</ScrollLink></button>
                 <button className='header__menu-list-adjust' ><ScrollLink to="learning" smooth={true} duration={500} spy={true} offset={-120}>Learning Track</ScrollLink></button>
                 <button className='header__menu-list-adjust' ><ScrollLink to="before" smooth={true} duration={500} spy={true} offset={-120}>Before Coding</ScrollLink></button>
-                <button className='header__menu-list-adjust' ><ScrollLink to="form" smooth={true} duration={500} spy={true} offset={-120}>Contact Me</ScrollLink></button>
+                <button className='header__menu-list-adjust' ><ScrollLink to="form" smooth={true} duration={500} spy={true} offset={-150}>Contact Me</ScrollLink></button>
                 <button className="header__menu-list-adjust" onClick={handleHeaderClose}><FontAwesomeIcon icon="window-close" /> </button>
             </menu>
         </header>
