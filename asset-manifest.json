@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/pinwei/static/css/main.ef1cd07e.chunk.css",
+    "main.js": "/pinwei/static/js/main.e93a773c.chunk.js",
+    "main.js.map": "/pinwei/static/js/main.e93a773c.chunk.js.map",
+    "runtime-main.js": "/pinwei/static/js/runtime-main.816241f4.js",
+    "runtime-main.js.map": "/pinwei/static/js/runtime-main.816241f4.js.map",
+    "static/js/2.6aa32fc3.chunk.js": "/pinwei/static/js/2.6aa32fc3.chunk.js",
+    "static/js/2.6aa32fc3.chunk.js.map": "/pinwei/static/js/2.6aa32fc3.chunk.js.map",
+    "static/js/3.85716669.chunk.js": "/pinwei/static/js/3.85716669.chunk.js",
+    "static/js/3.85716669.chunk.js.map": "/pinwei/static/js/3.85716669.chunk.js.map",
+    "index.html": "/pinwei/index.html",
+    "static/css/main.ef1cd07e.chunk.css.map": "/pinwei/static/css/main.ef1cd07e.chunk.css.map",
+    "static/js/2.6aa32fc3.chunk.js.LICENSE.txt": "/pinwei/static/js/2.6aa32fc3.chunk.js.LICENSE.txt",
+    "static/media/AroundUs.b32070d4.JPG": "/pinwei/static/media/AroundUs.b32070d4.JPG",
+    "static/media/FromPortlandToPortland.38d204a8.JPG": "/pinwei/static/media/FromPortlandToPortland.38d204a8.JPG",
+    "static/media/App.css": "/pinwei/static/media/RobotoMono-Italic-VariableFont_wght.60d900cc.ttf",
+    "static/media/LearningHowToLearn.5a8d0780.JPG": "/pinwei/static/media/LearningHowToLearn.5a8d0780.JPG",
+    "static/media/PersonalWebSite.f02a1c74.JPG": "/pinwei/static/media/PersonalWebSite.f02a1c74.JPG",
+    "static/media/Menu.css": "/pinwei/static/media/bg-mobil.28ad9650.jpg",
+    "static/media/baseCalculator.8cfb46f7.JPG": "/pinwei/static/media/baseCalculator.8cfb46f7.JPG",
+    "static/media/codewar.8cd7f0c1.jpg": "/pinwei/static/media/codewar.8cd7f0c1.jpg",
+    "static/media/cousera.fce26a08.jpg": "/pinwei/static/media/cousera.fce26a08.jpg",
+    "static/media/ctj.bc57a0d2.JPG": "/pinwei/static/media/ctj.bc57a0d2.JPG",
+    "static/media/edx.3aa39469.jpg": "/pinwei/static/media/edx.3aa39469.jpg",
+    "static/media/engineer.fe5e3e03.jpg": "/pinwei/static/media/engineer.fe5e3e03.jpg",
+    "static/media/newsExplorer.cbac983a.JPG": "/pinwei/static/media/newsExplorer.cbac983a.JPG",
+    "static/media/practicum.fae9c0c9.jpg": "/pinwei/static/media/practicum.fae9c0c9.jpg",
+    "static/media/probes3.adc943ba.jpg": "/pinwei/static/media/probes3.adc943ba.jpg",
+    "static/media/pwp.cad19590.jpg": "/pinwei/static/media/pwp.cad19590.jpg",
+    "static/media/statistics3.b0ef58b6.jpg": "/pinwei/static/media/statistics3.b0ef58b6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.816241f4.js",
+    "static/js/2.6aa32fc3.chunk.js",
+    "static/css/main.ef1cd07e.chunk.css",
+    "static/js/main.e93a773c.chunk.js"
+  ]
+}
