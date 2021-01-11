@@ -2,11 +2,14 @@ import './ProjectPopup.css';
 export default function ProjectsPopup({ isOpen, project, link, handleClose }) {
     const overlayClass = isOpen ? "overlay" : "hidden";
     const popupClass = isOpen ? "popup" : "hidden";
+    console.log(project);
+    console.log(link);
+    console.log(isOpen);
     return (
         <>
             <div className={overlayClass}></div>
             <section className={popupClass}>
-                <iframe title="demo" className="popup__video" width="560" height="315" src={project} frameBorder="0" allowFullScreen allow="autoplay" ></iframe>
+                <iframe title="demo" className="popup__video" width="560" height="315" src={project} frameBorder="0" allowFullScreen mozallowfullscreen="true" webkitallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" allow="autoplay" ></iframe>
                 <div className="popup__button-box">
                     <a
                         href={link}
