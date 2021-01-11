@@ -2,9 +2,6 @@ import './ProjectPopup.css';
 export default function ProjectsPopup({ isOpen, project, link, handleClose }) {
     const overlayClass = isOpen ? "overlay" : "hidden";
     const popupClass = isOpen ? "popup" : "hidden";
-    console.log(project);
-    console.log(link);
-    console.log(isOpen);
     return (
         <>
             <div className={overlayClass}></div>
