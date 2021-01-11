@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pinwei/static/css/main.ef1cd07e.chunk.css",
-    "main.js": "/pinwei/static/js/main.e93a773c.chunk.js",
-    "main.js.map": "/pinwei/static/js/main.e93a773c.chunk.js.map",
+    "main.js": "/pinwei/static/js/main.c69fb3e0.chunk.js",
+    "main.js.map": "/pinwei/static/js/main.c69fb3e0.chunk.js.map",
     "runtime-main.js": "/pinwei/static/js/runtime-main.816241f4.js",
     "runtime-main.js.map": "/pinwei/static/js/runtime-main.816241f4.js.map",
     "static/js/2.6aa32fc3.chunk.js": "/pinwei/static/js/2.6aa32fc3.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.816241f4.js",
     "static/js/2.6aa32fc3.chunk.js",
     "static/css/main.ef1cd07e.chunk.css",
-    "static/js/main.e93a773c.chunk.js"
+    "static/js/main.c69fb3e0.chunk.js"
   ]
 }
