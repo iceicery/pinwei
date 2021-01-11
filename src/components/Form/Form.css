@@ -60,3 +60,19 @@
 .form__err {
   color: red;
 }
+
+@media screen and (max-width: 500px) {
+  .form {
+    width: 90%;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    border: #fff solid;
+  }
+}

@@ -6,18 +6,20 @@
 }
 
 .cando__box {
-  width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
-  gap: 50px;
 }
 
 .cando__item {
   position: relative;
+  padding: 0;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 .cando__text {
@@ -47,4 +49,27 @@
   font-size: 12px;
   font-family: "Roboto_Mono";
   display: inline;
+}
+
+@media screen and (max-width: 1239px) {
+  .cando {
+    padding: 20px 0 20px 0;
+  }
+
+  .cando__box {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .cando__img {
+    width: 6vw;
+    font-size: 6vw;
+  }
 }

@@ -20,6 +20,7 @@
   z-index: 2;
   top: 20px;
   right: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hidden {
@@ -43,6 +44,6 @@
   background-color: #101010;
   color: #fff;
   overflow: auto;
-  width: vw;
+  width: 100%;
   position: relative;
 }

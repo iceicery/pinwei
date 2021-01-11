@@ -1,10 +1,12 @@
 .menu {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  justify-content: space-between;
-  align-items: initial;
-  flex-wrap: wrap;
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
 }
 
 .menu__title {
@@ -13,14 +15,6 @@
   margin: 0;
 }
 
-.menu__background {
-  background-image: url("../../images/background.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  filter: grayscale(100%);
-}
 .menu__overlay {
   margin-right: auto;
   margin-left: auto;
@@ -34,47 +28,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 600px;
   width: 50%;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
-  height: 50%;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
 }
-@media screen and (max-width: 800px) {
-  .menu__container {
-    position: absolute;
-    top: 15px;
-    right: 5px;
-    width: 50px;
-    height: 50px;
-  }
-}
-.menu__develope {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-.menu__emoji {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.menu__img-box {
-  width: 100%;
-  height: 100%;
-}
 
 @media screen and (max-width: 800px) {
-  .menu__img-box {
-    height: 100%;
+  .menu__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
+    height: 50%;
+    margin-top: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
   }
 }
 .menu__subtitle-box {
@@ -125,21 +99,6 @@
   cursor: pointer;
 }
 
-.menu__selfie {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  opacity: 0;
-  transition: 0.5s ease;
-  object-fit: cover;
-}
-
-.menu__container:hover .menu__selfie {
-  opacity: 1;
-}
 .menu__subtitle {
   padding-left: 30px;
   font-size: 20px;
@@ -152,19 +111,7 @@
     font-size: 15px;
   }
 }
-.menu__text-box {
-  width: 50%;
-  height: 100%;
-  position: relative;
-}
 
-@media screen and (max-width: 800px) {
-  .menu__text-box {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 .menu__title {
   padding-left: 30px;
   font-size: 50px;
@@ -186,5 +133,14 @@
   .menu__title-hi {
     padding-top: 15px;
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu {
+    width: 100%;
+    background-image: url("../../images/bg-mobil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
   }
 }
