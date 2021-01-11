@@ -15,7 +15,7 @@ Project is created with:
 
 ## Link
 
-https://iceicery.github.io/pesonal-website-react/
+https://iceicery.github.io/pinwei
 
 ## Plans for the next
 
