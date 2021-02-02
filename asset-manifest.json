@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pinwei/static/css/main.0926c0c8.chunk.css",
-    "main.js": "/pinwei/static/js/main.9bbe52ed.chunk.js",
-    "main.js.map": "/pinwei/static/js/main.9bbe52ed.chunk.js.map",
+    "main.js": "/pinwei/static/js/main.ed2f3250.chunk.js",
+    "main.js.map": "/pinwei/static/js/main.ed2f3250.chunk.js.map",
     "runtime-main.js": "/pinwei/static/js/runtime-main.816241f4.js",
     "runtime-main.js.map": "/pinwei/static/js/runtime-main.816241f4.js.map",
     "static/js/2.6aa32fc3.chunk.js": "/pinwei/static/js/2.6aa32fc3.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/LearningHowToLearn.5a8d0780.JPG": "/pinwei/static/media/LearningHowToLearn.5a8d0780.JPG",
     "static/media/PersonalWebSite.f02a1c74.JPG": "/pinwei/static/media/PersonalWebSite.f02a1c74.JPG",
     "static/media/Menu.css": "/pinwei/static/media/bg-mobil.28ad9650.jpg",
-    "static/media/baseCalculator.8cfb46f7.JPG": "/pinwei/static/media/baseCalculator.8cfb46f7.JPG",
+    "static/media/baseCalculator.d01cec5f.JPG": "/pinwei/static/media/baseCalculator.d01cec5f.JPG",
     "static/media/codewar.8cd7f0c1.jpg": "/pinwei/static/media/codewar.8cd7f0c1.jpg",
     "static/media/cousera.fce26a08.jpg": "/pinwei/static/media/cousera.fce26a08.jpg",
     "static/media/ctj.bc57a0d2.JPG": "/pinwei/static/media/ctj.bc57a0d2.JPG",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.816241f4.js",
     "static/js/2.6aa32fc3.chunk.js",
     "static/css/main.0926c0c8.chunk.css",
-    "static/js/main.9bbe52ed.chunk.js"
+    "static/js/main.ed2f3250.chunk.js"
   ]
 }
