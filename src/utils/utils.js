@@ -40,7 +40,7 @@ export const Link = {
   },
   calculators: {
     demo:
-      'https://drive.google.com/file/d/1vxI3rPdv5gGupw7ahQbHAoNki4qAXurb/preview',
+      'https://drive.google.com/file/d/11Ow-l9vhBtsTYinuDeHSndjqXbyj_u8G/preview',
     website: 'https://iceicery.github.io/BaseCaculator/',
     code: 'https://github.com/iceicery/BaseCaculator',
   },
