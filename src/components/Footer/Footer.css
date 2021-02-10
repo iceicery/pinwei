@@ -8,7 +8,7 @@
   align-items: baseline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
   }
@@ -19,7 +19,7 @@
   margin-right: 80px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer__box1 {
     flex-direction: column;
     margin: 0;
@@ -30,72 +30,57 @@
   align-items: baseline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer__box2 {
     flex-direction: column;
   }
 }
-.footer__icon-github {
-  background-image: url("../../images/GitHub-Mark-Light-32px.png");
-  background-size: 100%;
-  width: 25px;
-  height: 25px;
-  background-repeat: no-repeat;
-  border: solid 0.1px transparent;
-}
 
-.footer__icon-github:hover {
-  background-image: url("../../images/GitHub-Mark-Light-32px.png");
-  background-size: 100%;
-  width: 25px;
-  height: 25px;
-  opacity: 80%;
-  cursor: pointer;
-  border: solid 0.1px lightblue;
-}
-.footer__icon-linkedin {
-  background-image: url("../../images/LI-In-Bug.png");
-  background-size: 100%;
-  background-position: bottom;
-  margin-right: 20px;
-  width: 25px;
-  height: 25px;
-  background-repeat: no-repeat;
-}
-
-.footer__icon-linkedin:hover {
-  background-image: url("../../images/LI-In-Bug.png");
-  background-size: 100%;
-  background-position: bottom;
-  margin-right: 20px;
-  opacity: 80%;
-  cursor: pointer;
-  border: solid 0.1px lightblue;
-}
 .footer__icons {
   list-style: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  column-gap: 20px;
 }
+
+.footer__icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  border: solid 0.1px transparent;
+}
+
+.footer__icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .footer__subtitle {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer__subtitle {
     font-size: 15px;
   }
+
+  .footer__icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    border: solid 0.1px transparent;
+  }
 }
 .footer__title {
-  font-family: "Lobster";
+  font-family: 'Lobster';
   padding: 3px;
   border-bottom: solid 0.2px #fff;
-  margin-right: 10px;
+  margin-right: 20px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer__title {
     font-size: 15px;
   }
@@ -109,7 +94,7 @@
   align-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer__color {
     padding: 5px 5px 0 5px;
     flex-direction: column;

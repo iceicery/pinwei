@@ -10,6 +10,22 @@
   justify-content: space-between;
   align-content: center;
   flex-wrap: wrap;
+  margin: 0;
+}
+
+.header__close {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.header__close:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 600px) {
@@ -20,7 +36,7 @@
 }
 
 .header__title {
-  font-family: "Lobster";
+  font-family: 'Lobster';
   padding: 3px;
   border-bottom: solid 0.2px #fff;
   margin-right: 10px;
@@ -44,13 +60,13 @@
 }
 
 .header__menu-adjust {
-  margin-top: 0;
-
+  margin: 0 50px 0 0;
   display: flex;
   justify-content: flex-start;
   align-content: center;
   flex-wrap: wrap;
 }
+
 .header__menu-list-adjust {
   padding: 5px;
   margin-top: 20px;
@@ -72,8 +88,11 @@
 }
 
 .header__menu-list-adjust:hover {
-  border-bottom: solid 0.3px rgba(255, 255, 255, 0.8);
+  border: solid lightskyblue;
   color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  border: solid lightskyblue;
+}
+
+.header__menu-list-active {
+  border-bottom: solid rgba(255, 255, 255, 0.8);
 }
