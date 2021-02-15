@@ -11,6 +11,8 @@
 .projects__title {
   font-size: 15px;
   font-weight: normal;
+  padding: 0 10px;
+  margin: 10px 0 0;
 }
 .projects__box {
   list-style: none;
@@ -23,9 +25,9 @@
   flex-wrap: wrap;
 }
 .projects__item {
-  border: solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
   border-radius: 10px;
-  padding: 10px;
   margin-bottom: 30px;
   max-width: 90%;
 }
@@ -36,7 +38,9 @@
 
 .projects__button-box {
   display: none;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.85);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .projects__button {
   margin-top: auto;
@@ -62,7 +66,8 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  border: solid 0.1px #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .projects__img-box:hover .projects__button-box {
@@ -77,10 +82,11 @@
   bottom: 0;
   justify-content: center;
   gap: 20px;
+  cursor: pointer;
 }
 .projects__tech {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   display: flex;
   justify-content: right;

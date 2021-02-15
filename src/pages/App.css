@@ -2,14 +2,14 @@
 @import url(../vendor/font/font.css);
 
 .lobster {
-  font-family: "Lobster", "Inter", "Arial Narrow Bold", sans-serif;
+  font-family: 'Lobster', 'Inter', 'Arial Narrow Bold', sans-serif;
 }
 
 .page {
   background-color: #141414;
   color: #fff;
   width: 100%;
-  font-family: "Inter", "Arial Narrow Bold", sans-serif;
+  font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
   position: relative;
 }
 
@@ -19,13 +19,21 @@
   position: fixed;
   z-index: 2;
   top: 20px;
-  right: 30px;
-  background-color: rgba(20, 20, 20, 0.7);
+  right: 20px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 100%;
 }
 
 @media screen and (max-width: 400px) {
   .menu-icon {
-    right: 15px;
+    right: -10px;
+    top: 0;
   }
 }
 
