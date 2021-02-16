@@ -10,16 +10,14 @@
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
   list-style: none;
 }
 
 .cando__item {
   position: relative;
   padding: 0;
-  margin-right: 2vw;
-  margin-left: 2vw;
 }
 
 .cando__text {
@@ -27,9 +25,8 @@
 }
 
 .cando__img {
-  width: 80px;
+  width: 50px;
   color: #000;
-
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -47,7 +44,7 @@
   color: #fff;
   text-align: center;
   font-size: 12px;
-  font-family: "Roboto_Mono";
+  font-family: 'Roboto_Mono';
   display: inline;
 }
 

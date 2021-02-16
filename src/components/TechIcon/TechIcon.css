@@ -1,0 +1,7 @@
+.techicon {
+  width: 30px;
+  object-fit: cover;
+  padding: 5px;
+  margin: 0;
+  align-items: center;
+}

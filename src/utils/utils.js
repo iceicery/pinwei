@@ -6,6 +6,8 @@ import newsProject from '../images/newsExplorer.JPG';
 import personalWP from '../images/PersonalWebSite.JPG';
 import pwp from '../images/pwp.jpg';
 import ctj from '../images/ctj.JPG';
+import azure from '../images/Virtual-Machine.svg';
+import mongooseDB from '../images/mongoose.png';
 
 export const Link = {
   news: {
@@ -63,16 +65,20 @@ export const projects = [
     image: newsProject,
     text:
       'News Explorer is a website users could search news by keyword and save them while signing in.',
-    tech: ['CSS', 'JavaScript', 'React', 'Azure', 'Full Stack'],
+    tech: ['react', 'css3', 'js', 'node'],
+    techIcons: [
+      { techName: 'azure', techIcon: azure },
+      { techName: 'mongooseDB', techIcon: mongooseDB },
+    ],
     website: Link.news.website,
     demo: Link.news.demo,
     codes: [
       {
-        button: 'Font Code',
+        button: 'Font-end Code',
         link: Link.news.code.font,
       },
       {
-        button: 'API Code',
+        button: 'Back-end Code',
         link: Link.news.code.end,
       },
     ],
@@ -81,16 +87,20 @@ export const projects = [
     image: project3,
     text:
       "Around the US is a website users could log in, costumize their profiles, share their photos and like others'.",
-    tech: ['CSS', 'JavaScript', 'React', 'Azure', 'Full Stack'],
+    tech: ['react', 'css3', 'js', 'node'],
+    techIcons: [
+      { techName: 'azure', techIcon: azure },
+      { techName: 'mongooseDB', techIcon: mongooseDB },
+    ],
     website: Link.around.website,
     demo: Link.around.demo,
     codes: [
       {
-        button: 'Font Code',
+        button: 'Font-end Code',
         link: Link.around.code.font,
       },
       {
-        button: 'API Code',
+        button: 'Back-end Code',
         link: Link.around.code.end,
       },
     ],
@@ -99,7 +109,7 @@ export const projects = [
     image: pwp,
     text:
       'This is my personal website with the info of my web project profolios, work experiences, and learning tracks.',
-    tech: ['React', 'CSS', 'JavaScript'],
+    tech: ['react', 'css3', 'js', 'node'],
     website: Link.personal_2.website,
     codes: [
       {
@@ -112,7 +122,7 @@ export const projects = [
     image: personalWP,
     text:
       'This is another version of my personal website with the info of my web project profolios, work experiences, and learning tracks.',
-    tech: ['React', 'CSS', 'JavaScript'],
+    tech: ['react', 'css3', 'js'],
     website: Link.personal.website,
     codes: [
       {
@@ -124,7 +134,7 @@ export const projects = [
   {
     image: ctj,
     text: 'A personal website for a research scientist.',
-    tech: ['React', 'CSS', 'JavaScript'],
+    tech: ['react', 'css3', 'js'],
     website: Link.ctj.website,
     codes: [
       {
@@ -137,7 +147,7 @@ export const projects = [
     image: project1,
     text:
       'A website with info of learning how to learn. This is my very first independent web project from Praticum.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    tech: ['html5', 'css3', 'js'],
     website: Link.learning.website,
     demo: Link.learning.demo,
     codes: [
@@ -151,7 +161,7 @@ export const projects = [
     image: project2,
     text:
       'A website with information of a bicycle journey across the USA. This is my second independent project from Practicum.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    tech: ['html5', 'css3', 'js'],
     website: Link.bicycle.website,
     demo: Link.bicycle.demo,
     codes: [
@@ -165,7 +175,7 @@ export const projects = [
     image: project4,
     text:
       'A website with different bases calculators including binary, octal and more.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    tech: ['html5', 'css3', 'js'],
     website: Link.calculators.website,
     demo: Link.calculators.demo,
     codes: [
