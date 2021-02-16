@@ -66,7 +66,7 @@ export const projects = [
   {
     image: interative,
     text:
-      'Iterative.ai landing website. In this project, I worked in a team of three. We created 34 reusable components with storybook documented, 150 commits and more than 50 pull requests. We finished the project in 3 weeks and presented it on Feb/2020.',
+      'In Iterative.ai landing website project, I worked in a team of three, created 34 reusable components with storybook documented, 150 commits, more than 50 PRs, finished in 3 weeks and presented it on Feb/2020.',
     tech: ['react', 'css3', 'js', 'node'],
     techIcons: [{ techName: 'storybook', techIcon: storybook }],
     demo:

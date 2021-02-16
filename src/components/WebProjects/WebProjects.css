@@ -31,6 +31,9 @@
   border-radius: 10px;
   margin-bottom: 30px;
   max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .projects__img-box {
   width: 100%;
@@ -89,7 +92,8 @@
 .projects__tech {
   list-style: none;
   padding: 10px;
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: 0;
   display: flex;
   justify-content: right;
   flex-wrap: wrap;
