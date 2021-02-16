@@ -4,6 +4,7 @@ import cousera from '../../images/cousera.jpg';
 import edx from '../../images/edx.jpg';
 import practicum from '../../images/practicum.jpg';
 import codewar from '../../images/codewar.jpg';
+import certificate from '../../utils/certificate.pdf';
 
 export default function Learning() {
   return (
@@ -34,8 +35,16 @@ export default function Learning() {
                 development that covers HTML, CSS, JavaScript, React, back-end
                 infrastructure, and more. Throughout the curriculum, I developed
                 essential soft skills by working projects with hard deadlines. I
-                am now working at the final project and will finished the
-                program at the end of December.
+                recieved my{' '}
+                <a
+                  href={certificate}
+                  className="learning__item-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  certificate
+                </a>{' '}
+                on Jan/2020.
               </p>
             </div>
           </li>
@@ -153,7 +162,7 @@ export default function Learning() {
                   rel="noreferrer"
                   className="learning__item-link"
                 >
-                  the assignments
+                  the&nbsp;assignments
                 </a>{' '}
                 and I enjoyed the challenge of each of them.{' '}
               </p>

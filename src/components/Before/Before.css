@@ -68,9 +68,9 @@
 }
 
 .before__item-link {
-  border-bottom: solid 0.3px rgba(256, 256, 256, 0.8);
+  text-decoration: underline;
 }
 .before__item-link:hover {
-  border: solid 0.3px rgba(173, 216, 230, 0.8);
-  border-radius: 5px;
+  text-shadow: 2px 2px 3px lightblue;
+  opacity: 0.8;
 }
