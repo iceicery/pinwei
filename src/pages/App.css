@@ -6,7 +6,7 @@
 }
 
 .page {
-  background-color: #141414;
+  background-color: #101010;
   color: #fff;
   width: 100%;
   font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
@@ -22,6 +22,12 @@
   right: 20px;
   background-color: transparent;
   padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-icon {
+    width: 20px;
+  }
 }
 
 .menu-icon:hover {
@@ -55,7 +61,6 @@
 .content {
   top: 0;
   bottom: 0;
-  background-color: #101010;
   color: #fff;
   overflow: auto;
   width: 100%;

@@ -38,7 +38,7 @@ export default function Project({
       <h3 className="projects__title">{text}</h3>
       <ul className="projects__tech">
         {techs.map((item, i) => (
-          <Tech tech={item} key={i} />
+          <Tech tech={item.icon} techText={item.text} key={i} />
         ))}
         {techIcons ? (
           techIcons.map((item, i) => (

@@ -66,8 +66,13 @@ export const projects = [
   {
     image: interative,
     text:
-      'In Iterative.ai landing website project, I worked in a team of three, created 34 reusable components with storybook documented, 150 commits, more than 50 PRs, finished in 3 weeks and presented it on Feb/2020.',
-    tech: ['react', 'css3', 'js', 'node'],
+      'In Iterative.ai landing website project, I worked in a team of three, created 34 reusable components, 150 commits, more than 50 PRs, finished in 3 weeks and presented it on Feb/2020.',
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
     techIcons: [{ techName: 'storybook', techIcon: storybook }],
     demo:
       'https://drive.google.com/file/d/15rqg2bT5pQ_b3RITCBbLnYx0MXfbm6HA/preview',
@@ -78,9 +83,14 @@ export const projects = [
     image: newsProject,
     text:
       'News Explorer is a website users could search news by keyword and save them while signing in.',
-    tech: ['react', 'css3', 'js', 'node'],
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
     techIcons: [
-      { techName: 'azure', techIcon: azure },
+      { techName: 'Azure', techIcon: azure },
       { techName: 'mongooseDB', techIcon: mongooseDB },
     ],
     website: Link.news.website,
@@ -100,9 +110,14 @@ export const projects = [
     image: project3,
     text:
       "Around the US is a website users could log in, costumize their profiles, share their photos and like others'.",
-    tech: ['react', 'css3', 'js', 'node'],
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
     techIcons: [
-      { techName: 'azure', techIcon: azure },
+      { techName: 'Azure', techIcon: azure },
       { techName: 'mongooseDB', techIcon: mongooseDB },
     ],
     website: Link.around.website,
@@ -122,7 +137,12 @@ export const projects = [
     image: pwp,
     text:
       'This is my personal website with the info of my web project profolios, work experiences, and learning tracks.',
-    tech: ['react', 'css3', 'js', 'node'],
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
     website: Link.personal_2.website,
     codes: [
       {
@@ -135,7 +155,12 @@ export const projects = [
     image: personalWP,
     text:
       'This is another version of my personal website with the info of my web project profolios, work experiences, and learning tracks.',
-    tech: ['react', 'css3', 'js'],
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
     website: Link.personal.website,
     codes: [
       {
@@ -147,7 +172,12 @@ export const projects = [
   {
     image: ctj,
     text: 'A personal website for a research scientist.',
-    tech: ['react', 'css3', 'js'],
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
     website: Link.ctj.website,
     codes: [
       {
@@ -160,7 +190,11 @@ export const projects = [
     image: project1,
     text:
       'A website with info of learning how to learn. This is my very first independent web project from Praticum.',
-    tech: ['html5', 'css3', 'js'],
+    tech: [
+      { icon: 'html5', text: 'HTML' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+    ],
     website: Link.learning.website,
     demo: Link.learning.demo,
     codes: [
@@ -174,7 +208,11 @@ export const projects = [
     image: project2,
     text:
       'A website with information of a bicycle journey across the USA. This is my second independent project from Practicum.',
-    tech: ['html5', 'css3', 'js'],
+    tech: [
+      { icon: 'html5', text: 'HTML' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+    ],
     website: Link.bicycle.website,
     demo: Link.bicycle.demo,
     codes: [
@@ -188,7 +226,11 @@ export const projects = [
     image: project4,
     text:
       'A website with different bases calculators including binary, octal and more.',
-    tech: ['html5', 'css3', 'js'],
+    tech: [
+      { icon: 'html5', text: 'HTML' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+    ],
     website: Link.calculators.website,
     demo: Link.calculators.demo,
     codes: [

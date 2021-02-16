@@ -31,7 +31,7 @@ export default function Header({ isOpen, handleHeaderClose }) {
           smooth={true}
           duration={500}
           spy={true}
-          offset={-120}
+          offset={-90}
           activeClass="header__menu-list-active"
           className="header__menu-list-adjust"
         >

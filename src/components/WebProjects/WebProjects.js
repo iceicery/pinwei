@@ -14,7 +14,7 @@ function WebProjects({ handleOpen, handleProject, handleLink }) {
   return (
     <main className="content">
       <section className="projects">
-        <h2 className="projects__text lobster">Projects</h2>
+        <h2 className="projects__text lobster">--- Web Projects ---</h2>
         <ul className="projects__box">
           {projects.map((project, i) => (
             <Project
