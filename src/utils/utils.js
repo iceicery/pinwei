@@ -4,10 +4,12 @@ import project3 from '../images/AroundUs.JPG';
 import project4 from '../images/baseCalculator.JPG';
 import newsProject from '../images/newsExplorer.JPG';
 import personalWP from '../images/PersonalWebSite.JPG';
+import interative from '../images/interative.PNG';
 import pwp from '../images/pwp.jpg';
 import ctj from '../images/ctj.JPG';
 import azure from '../images/Virtual-Machine.svg';
 import mongooseDB from '../images/mongoose.png';
+import storybook from '../images/storybook.svg';
 
 export const Link = {
   news: {
@@ -61,6 +63,17 @@ export const Link = {
 };
 
 export const projects = [
+  {
+    image: interative,
+    text:
+      'Iterative.ai landing website. In this project, I worked in a team of three. We created 34 reusable components with storybook documented, 150 commits and more than 50 pull requests. We finished the project in 3 weeks and presented it on Feb/2020.',
+    tech: ['react', 'css3', 'js', 'node'],
+    techIcons: [{ techName: 'storybook', techIcon: storybook }],
+    demo:
+      'https://drive.google.com/file/d/15rqg2bT5pQ_b3RITCBbLnYx0MXfbm6HA/preview',
+    codes: [],
+  },
+
   {
     image: newsProject,
     text:

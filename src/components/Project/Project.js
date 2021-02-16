@@ -16,6 +16,7 @@ export default function Project({
     handleOnclick(demo, website);
   }
   const demoClass = demo ? 'projects__button' : 'hidden';
+  const linkClass = website ? 'projects__button' : 'hidden';
   return (
     <li className="projects__item">
       <div className="projects__img-box">
@@ -30,7 +31,7 @@ export default function Project({
             rel="noreferrer"
             className="projects__button-link"
           >
-            <button className="projects__button">Link</button>
+            <button className={linkClass}>Link</button>
           </a>
         </div>
       </div>
