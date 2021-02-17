@@ -97,7 +97,7 @@ export const projects = [
     demo: Link.news.demo,
     codes: [
       {
-        button: 'Font-end Code',
+        button: 'Front-end Code',
         link: Link.news.code.font,
       },
       {
@@ -124,7 +124,7 @@ export const projects = [
     demo: Link.around.demo,
     codes: [
       {
-        button: 'Font-end Code',
+        button: 'Front-end Code',
         link: Link.around.code.font,
       },
       {
