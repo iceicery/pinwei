@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 import { Element } from 'react-scroll';
 import './pages/App.css';
@@ -40,8 +40,39 @@ function App() {
   function handleLink(link) {
     setLink(link);
   }
+
+  const escFunction = useCallback((event) => {
+    if (event.keyCode === 27) {
+      setIsHeaderOpen(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener('keydown', escFunction, false);
+
+    return () => {
+      document.removeEventListener('keydown', escFunction, false);
+    };
+  }, [escFunction]);
+
+  function handleNavCloseOuter(e) {
+    console.log(e.target.className);
+    console.log(e.target.className);
+    if (typeof e.target.className === 'object') {
+      return;
+    }
+    if (
+      e.target.className &&
+      !(
+        e.target.className.includes('header') ||
+        e.target.className.includes('menu-icon')
+      )
+    ) {
+      setIsHeaderOpen(false);
+    }
+  }
   return (
-    <div className="page">
+    <div className="page" onClick={handleNavCloseOuter}>
       <img
         src={menuIcon}
         className="menu-icon"
