@@ -56,8 +56,6 @@ function App() {
   }, [escFunction]);
 
   function handleNavCloseOuter(e) {
-    console.log(e.target.className);
-    console.log(e.target.className);
     if (typeof e.target.className === 'object') {
       return;
     }
