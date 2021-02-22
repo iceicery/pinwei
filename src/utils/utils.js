@@ -10,6 +10,7 @@ import ctj from '../images/ctj.JPG';
 import azure from '../images/Virtual-Machine.svg';
 import mongooseDB from '../images/mongoose.png';
 import storybook from '../images/storybook.svg';
+import gatsby from '../images/gatsby.svg';
 
 export const Link = {
   news: {
@@ -68,12 +69,14 @@ export const projects = [
     text:
       'In Iterative.ai landing website project, I worked in a team of three, created 34 reusable components, 150 commits, more than 50 PRs, finished in 3 weeks and presented it on Feb/2020.',
     tech: [
-      { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
       { icon: 'js', text: 'JavaScript' },
       { icon: 'node', text: 'node.js' },
     ],
-    techIcons: [{ techName: 'storybook', techIcon: storybook }],
+    techIcons: [
+      { techName: 'Storybook', techIcon: storybook },
+      { techName: 'Gatsby', techIcon: gatsby },
+    ],
     demo:
       'https://drive.google.com/file/d/15rqg2bT5pQ_b3RITCBbLnYx0MXfbm6HA/preview',
     codes: [],
