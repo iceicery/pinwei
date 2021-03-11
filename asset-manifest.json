@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pinwei/static/css/main.ea36e156.chunk.css",
-    "main.js": "/pinwei/static/js/main.be226d87.chunk.js",
-    "main.js.map": "/pinwei/static/js/main.be226d87.chunk.js.map",
+    "main.js": "/pinwei/static/js/main.884095b5.chunk.js",
+    "main.js.map": "/pinwei/static/js/main.884095b5.chunk.js.map",
     "runtime-main.js": "/pinwei/static/js/runtime-main.64d1d343.js",
     "runtime-main.js.map": "/pinwei/static/js/runtime-main.64d1d343.js.map",
     "static/js/2.772ee401.chunk.js": "/pinwei/static/js/2.772ee401.chunk.js",
@@ -28,6 +28,7 @@
     "static/media/engineer.3b8bc3d9.jpg": "/pinwei/static/media/engineer.3b8bc3d9.jpg",
     "static/media/gatsby.9f365456.svg": "/pinwei/static/media/gatsby.9f365456.svg",
     "static/media/interative.f8649283.PNG": "/pinwei/static/media/interative.f8649283.PNG",
+    "static/media/matching.948274c6.PNG": "/pinwei/static/media/matching.948274c6.PNG",
     "static/media/mongoose.4770f038.png": "/pinwei/static/media/mongoose.4770f038.png",
     "static/media/newsExplorer.a81d34ee.JPG": "/pinwei/static/media/newsExplorer.a81d34ee.JPG",
     "static/media/practicum.fae9c0c9.jpg": "/pinwei/static/media/practicum.fae9c0c9.jpg",
@@ -40,6 +41,6 @@
     "static/js/runtime-main.64d1d343.js",
     "static/js/2.772ee401.chunk.js",
     "static/css/main.ea36e156.chunk.css",
-    "static/js/main.be226d87.chunk.js"
+    "static/js/main.884095b5.chunk.js"
   ]
 }
