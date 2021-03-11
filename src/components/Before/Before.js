@@ -26,11 +26,11 @@ export default function Before() {
                 >
                   Milton S. Hershey Medical Center
                 </a>{' '}
-                as a research intern.I compared the market share of melanoma
-                cancer for vaious hospital. I developed data cleaning code,
-                built formatted data sets and developed R program to calculate
-                age adjusted cancer crude rate and rate ratio. I provided data
-                and helpd build{' '}
+                as a research intern. I compared the market share of melanoma
+                cancer for various hospitals. I developed data cleaning code,
+                built formatted data sets, and developed an R program to
+                calculate age-adjusted cancer crude rate and rate ratio. I
+                provided data and helped build a{' '}
                 <a
                   href="https://psulss.maps.arcgis.com/apps/Cascade/index.html?appid=0fed8fee47cd483b963f056a774b0467"
                   target="_blank"
@@ -39,7 +39,7 @@ export default function Before() {
                 >
                   story map on esri.com
                 </a>{' '}
-                regarding cancer in catchment area, PA.
+                regarding cancer in the catchment area, PA.
               </p>
             </div>
           </li>
@@ -55,10 +55,10 @@ export default function Before() {
                   rel="noreferrer"
                   className="before__item-link"
                 >
-                  AU Optronic Corporation
+                  AU Optronics Corporation
                 </a>{' '}
-                as a TFT LCD Panel design engineer.I developed panels based on
-                customers’ requests, monitored panels’ performance and solved
+                as a TFT LCD Panel design engineer. I developed panels based on
+                customers’ requests, monitored panels’ performance, and solved
                 problems. I worked with the design team and factories. I
                 co-wrote a patent-
                 <a

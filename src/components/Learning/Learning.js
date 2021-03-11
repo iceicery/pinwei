@@ -30,12 +30,12 @@ export default function Learning() {
                 I learned from Practicum by Yandex.
               </h3>
               <p>
-                In 2020, I was fortunately selected to be part of practicum by
-                yandex beta-test program-a intensive 10-month course in web
+                In 2020, I was fortunately selected to be part of Practicum by
+                Yandex beta-test program-a intensive 10-month course in web
                 development that covers HTML, CSS, JavaScript, React, back-end
                 infrastructure, and more. Throughout the curriculum, I developed
-                essential soft skills by working projects with hard deadlines. I
-                recieved my{' '}
+                essential soft skills by working on projects with hard
+                deadlines. I received my{' '}
                 <a
                   href={certificate}
                   className="learning__item-link"
@@ -44,7 +44,7 @@ export default function Learning() {
                 >
                   certificate
                 </a>{' '}
-                on Jan/2020.
+                in Jan/2020.
               </p>
             </div>
           </li>
@@ -62,9 +62,9 @@ export default function Learning() {
                 I learned from Cousera.
               </h3>
               <p>
-                I love coursera that I could access so many courses from lots of
+                I love Coursera that I could access so many courses from lots of
                 top schools. I learned my first programing language there and
-                love coding since.
+                love coding since.{' '}
               </p>
               <h4 className="learning__item-subtitle">Certificate I earned</h4>
               <ul className="learning__item-list">
@@ -152,7 +152,7 @@ export default function Learning() {
                 >
                   CS50 course
                 </a>{' '}
-                offered by Harvard University from Edx. It was a mind browing
+                offered by Harvard University from Edx. It was a mind-blowing
                 experience. I learned fundamental knowledge of computer science
                 with a big picture in such a short time and all the coding and
                 programming suddenly made more sense to me. I finished most of{' '}
@@ -179,13 +179,13 @@ export default function Learning() {
             </a>
             <div className="learning__item-textbox">
               <h3 className="learning__item-title lobster">
-                I practice on Codewar.
+                I practice on Codewars.
               </h3>
               <p>
-                I enjoy practicing on codewar.I love that you could only access
-                others’ code if you pass the challenge on your own. I learned a
-                lot through the process of independent thinking and aha moments
-                while I saw others' better approach.
+                I enjoy practicing on Codewars. I love that you could only
+                access others’ code if you pass the challenge on your own. I
+                learned a lot through the process of independent thinking and
+                aha moments while I saw others' better approaches.
               </p>
               <img
                 className="learning__img"
