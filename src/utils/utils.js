@@ -134,7 +134,7 @@ export const projects = [
     ],
     techIcons: [{ techName: 'Storybook', techIcon: storybook }],
     demo:
-      'https://drive.google.com/file/d/13sielUi8zZSQ7cG-aGolImvjEHPIlod7/view',
+      'https://drive.google.com/file/d/13sielUi8zZSQ7cG-aGolImvjEHPIlod7/preview',
     codes: [],
   },
   {
