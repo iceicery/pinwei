@@ -18,7 +18,7 @@ export const Link = {
   news: {
     demo:
       'https://drive.google.com/file/d/168o22ITmdio860VVYuhER-UZ5pJPMvws/preview',
-    website: 'https://newsfinder.students.nomoreparties.site',
+    website: 'https://news.pw.students.nomoreparties.site',
     code: {
       font: 'https://github.com/iceicery/news-explorer-frontend',
       end: 'https://github.com/iceicery/news-explorer-api',
