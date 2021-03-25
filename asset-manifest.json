@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pinwei/static/css/main.ea36e156.chunk.css",
-    "main.js": "/pinwei/static/js/main.884095b5.chunk.js",
-    "main.js.map": "/pinwei/static/js/main.884095b5.chunk.js.map",
+    "main.js": "/pinwei/static/js/main.9428816d.chunk.js",
+    "main.js.map": "/pinwei/static/js/main.9428816d.chunk.js.map",
     "runtime-main.js": "/pinwei/static/js/runtime-main.64d1d343.js",
     "runtime-main.js.map": "/pinwei/static/js/runtime-main.64d1d343.js.map",
     "static/js/2.772ee401.chunk.js": "/pinwei/static/js/2.772ee401.chunk.js",
@@ -16,8 +16,8 @@
     "static/media/FromPortlandToPortland.ebe6c8da.JPG": "/pinwei/static/media/FromPortlandToPortland.ebe6c8da.JPG",
     "static/media/App.css": "/pinwei/static/media/RobotoMono-Italic-VariableFont_wght.60d900cc.ttf",
     "static/media/LearningHowToLearn.bd7c53e0.JPG": "/pinwei/static/media/LearningHowToLearn.bd7c53e0.JPG",
-    "static/media/PersonalWebSite.3baf26e8.JPG": "/pinwei/static/media/PersonalWebSite.3baf26e8.JPG",
     "static/media/Virtual-Machine.550a7e54.svg": "/pinwei/static/media/Virtual-Machine.550a7e54.svg",
+    "static/media/author.1970d199.PNG": "/pinwei/static/media/author.1970d199.PNG",
     "static/media/Menu.css": "/pinwei/static/media/bg-mobil.de799996.jpg",
     "static/media/baseCalculator.05374ef1.JPG": "/pinwei/static/media/baseCalculator.05374ef1.JPG",
     "static/media/certificate.a24694c0.pdf": "/pinwei/static/media/certificate.a24694c0.pdf",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.64d1d343.js",
     "static/js/2.772ee401.chunk.js",
     "static/css/main.ea36e156.chunk.css",
-    "static/js/main.884095b5.chunk.js"
+    "static/js/main.9428816d.chunk.js"
   ]
 }
