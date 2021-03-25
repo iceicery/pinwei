@@ -3,8 +3,9 @@ import project2 from '../images/FromPortlandToPortland.JPG';
 import project3 from '../images/AroundUs.JPG';
 import project4 from '../images/baseCalculator.JPG';
 import newsProject from '../images/newsExplorer.JPG';
-import personalWP from '../images/PersonalWebSite.JPG';
+//import personalWP from '../images/PersonalWebSite.JPG';
 import interative from '../images/interative.PNG';
+import author from '../images/author.PNG';
 import matching from '../images/matching.PNG';
 import pwp from '../images/pwp.jpg';
 import ctj from '../images/ctj.JPG';
@@ -122,6 +123,21 @@ export const projects = [
     ],
   },
   {
+    image: author,
+    text:
+      'A customized personal website for a young author to publish her creation with font-size adjustment and dual-language feature.',
+    tech: [
+      { icon: 'react', text: 'React' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
+    techIcons: [{ techName: 'Storybook', techIcon: storybook }],
+    demo:
+      'https://drive.google.com/file/d/13sielUi8zZSQ7cG-aGolImvjEHPIlod7/view',
+    codes: [],
+  },
+  {
     image: project3,
     text:
       "Around the US is a website that users could log in, customize their profiles, share their photos, and like others'.",
@@ -183,6 +199,7 @@ export const projects = [
       },
     ],
   },
+  /*
   {
     image: personalWP,
     text:
@@ -200,7 +217,7 @@ export const projects = [
         link: Link.personal.code,
       },
     ],
-  },
+  },*/
   {
     image: ctj,
     text: 'A personal website for a research scientist.',
