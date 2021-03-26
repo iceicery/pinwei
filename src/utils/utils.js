@@ -7,6 +7,7 @@ import newsProject from '../images/newsExplorer.JPG';
 import interative from '../images/interative.PNG';
 import author from '../images/author.PNG';
 import matching from '../images/matching.PNG';
+import iptracker from '../images/iptracker.PNG';
 import pwp from '../images/pwp.jpg';
 import ctj from '../images/ctj.JPG';
 import azure from '../images/Virtual-Machine.svg';
@@ -232,6 +233,25 @@ export const projects = [
       {
         button: 'Code',
         link: Link.ctj.code,
+      },
+    ],
+  },
+  {
+    image: iptracker,
+    text:
+      'Ip Address Tracker is a web page that users could input an Ip address and get the location information and map display. This project is part of the Frontend Mentor challenge.',
+    tech: [
+      { icon: 'html5', text: 'HTML' },
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+    ],
+    website: 'http://ip-tracker-pw.surge.sh/',
+    demo:
+      'https://drive.google.com/file/d/1RRhFj9njkj8C-xyuSayMccWiP35ER23g/preview',
+    codes: [
+      {
+        button: 'Code',
+        link: 'https://github.com/iceicery/ip-address-tracker-master',
       },
     ],
   },
