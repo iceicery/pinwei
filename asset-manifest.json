@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pinwei/static/css/main.ea36e156.chunk.css",
-    "main.js": "/pinwei/static/js/main.ec498b1a.chunk.js",
-    "main.js.map": "/pinwei/static/js/main.ec498b1a.chunk.js.map",
+    "main.js": "/pinwei/static/js/main.b1711f90.chunk.js",
+    "main.js.map": "/pinwei/static/js/main.b1711f90.chunk.js.map",
     "runtime-main.js": "/pinwei/static/js/runtime-main.64d1d343.js",
     "runtime-main.js.map": "/pinwei/static/js/runtime-main.64d1d343.js.map",
     "static/js/2.772ee401.chunk.js": "/pinwei/static/js/2.772ee401.chunk.js",
@@ -36,12 +36,13 @@
     "static/media/probes3.22ba0bbd.jpg": "/pinwei/static/media/probes3.22ba0bbd.jpg",
     "static/media/pwp.754ac099.jpg": "/pinwei/static/media/pwp.754ac099.jpg",
     "static/media/statistics3.0f7cf3ed.jpg": "/pinwei/static/media/statistics3.0f7cf3ed.jpg",
-    "static/media/storybook.4baf9f31.svg": "/pinwei/static/media/storybook.4baf9f31.svg"
+    "static/media/storybook.4baf9f31.svg": "/pinwei/static/media/storybook.4baf9f31.svg",
+    "static/media/tree.d109a325.png": "/pinwei/static/media/tree.d109a325.png"
   },
   "entrypoints": [
     "static/js/runtime-main.64d1d343.js",
     "static/js/2.772ee401.chunk.js",
     "static/css/main.ea36e156.chunk.css",
-    "static/js/main.ec498b1a.chunk.js"
+    "static/js/main.b1711f90.chunk.js"
   ]
 }
