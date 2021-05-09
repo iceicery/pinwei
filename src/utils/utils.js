@@ -4,6 +4,7 @@ import project3 from '../images/AroundUs.JPG';
 import project4 from '../images/baseCalculator.JPG';
 import newsProject from '../images/newsExplorer.JPG';
 //import personalWP from '../images/PersonalWebSite.JPG';
+import tree from '../images/tree.png';
 import interative from '../images/interative.PNG';
 import author from '../images/author.PNG';
 import matching from '../images/matching.PNG';
@@ -79,23 +80,25 @@ export const Link = {
 
 export const projects = [
   {
-    image: interative,
+    image: tree,
     text:
-      'In the Iterative.ai landing website project, I worked in a team of three, created 34 reusable components, 150 commits, more than 50 PRs, finished in 3 weeks ,and presented it in Feb/2020.',
+      'HudsonAlpha Virtual Tech Challenge 2021- College / Professional - First Place. Trick or trees is an user-friendly scavenger hunt webapp takes the user through a treasure map of trees.',
     tech: [
+      { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
       { icon: 'js', text: 'JavaScript' },
       { icon: 'node', text: 'node.js' },
     ],
-    techIcons: [
-      { techName: 'Storybook', techIcon: storybook },
-      { techName: 'Gatsby', techIcon: gatsby },
-    ],
-    website: Link.interative.website,
-    demo: Link.interative.demo,
-    codes: [],
-  },
+    website: 'https://devpost.com/software/trick-or-tree',
+    demo: 'https://www.youtube.com/embed/9wHxHhEupvw',
 
+    codes: [
+      {
+        button: 'Code',
+        link: 'https://github.com/iceicery/trick-or-tree',
+      },
+    ],
+  },
   {
     image: newsProject,
     text:
@@ -122,6 +125,24 @@ export const projects = [
         link: Link.news.code.end,
       },
     ],
+  },
+
+  {
+    image: interative,
+    text:
+      'In the Iterative.ai landing website project, I worked in a team of three, created 34 reusable components, 150 commits, more than 50 PRs, finished in 3 weeks ,and presented it in Feb/2020.',
+    tech: [
+      { icon: 'css3', text: 'CSS' },
+      { icon: 'js', text: 'JavaScript' },
+      { icon: 'node', text: 'node.js' },
+    ],
+    techIcons: [
+      { techName: 'Storybook', techIcon: storybook },
+      { techName: 'Gatsby', techIcon: gatsby },
+    ],
+    website: Link.interative.website,
+    demo: Link.interative.demo,
+    codes: [],
   },
   {
     image: author,
@@ -165,6 +186,7 @@ export const projects = [
       },
     ],
   },
+
   {
     image: matching,
     text:
