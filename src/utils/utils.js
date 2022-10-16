@@ -18,17 +18,15 @@ import gatsby from '../images/gatsby.svg';
 
 export const Link = {
   news: {
-    demo:
-      'https://drive.google.com/file/d/168o22ITmdio860VVYuhER-UZ5pJPMvws/preview',
-    website: 'https://news.pw.students.nomoreparties.site',
+    demo: 'https://drive.google.com/file/d/168o22ITmdio860VVYuhER-UZ5pJPMvws/preview',
+    website: '',
     code: {
       font: 'https://github.com/iceicery/news-explorer-frontend',
       end: 'https://github.com/iceicery/news-explorer-api',
     },
   },
   around: {
-    demo:
-      'https://drive.google.com/file/d/1bwVGKJnFjQ2JElj43haUC9PUPOecJN6O/preview',
+    demo: 'https://drive.google.com/file/d/1bwVGKJnFjQ2JElj43haUC9PUPOecJN6O/preview',
     website: 'https://iceicery.github.io/web_project_4/dist/index.html',
     code: {
       font: 'https://github.com/iceicery/react-around-auth',
@@ -36,26 +34,22 @@ export const Link = {
     },
   },
   matching: {
-    demo:
-      'https://drive.google.com/file/d/1sJMNiEuTup9m-Krntj_-Mto9fN2T-XJR/preview',
+    demo: 'https://drive.google.com/file/d/1sJMNiEuTup9m-Krntj_-Mto9fN2T-XJR/preview',
     website: 'https://iceicery.github.io/matching-game/',
     code: 'https://github.com/iceicery/matching-game',
   },
   learning: {
-    demo:
-      'https://drive.google.com/file/d/1T0iLeJ245rwH9roclAuk-Umafbd56QN5/preview',
+    demo: 'https://drive.google.com/file/d/1T0iLeJ245rwH9roclAuk-Umafbd56QN5/preview',
     website: 'https://iceicery.github.io/web_project_1/',
     code: 'https://github.com/iceicery/web_project_1',
   },
   bicycle: {
-    demo:
-      'https://drive.google.com/file/d/1xF0GQ3JlLJUvGkUST3cXwYREpgC6vfxC/preview',
+    demo: 'https://drive.google.com/file/d/1xF0GQ3JlLJUvGkUST3cXwYREpgC6vfxC/preview',
     website: 'https://iceicery.github.io/web_project_3/',
     code: 'https://github.com/iceicery/web_project_3',
   },
   calculators: {
-    demo:
-      'https://drive.google.com/file/d/11Ow-l9vhBtsTYinuDeHSndjqXbyj_u8G/preview',
+    demo: 'https://drive.google.com/file/d/11Ow-l9vhBtsTYinuDeHSndjqXbyj_u8G/preview',
     website: 'https://iceicery.github.io/BaseCaculator/',
     code: 'https://github.com/iceicery/BaseCaculator',
   },
@@ -72,8 +66,7 @@ export const Link = {
     code: 'https://github.com/iceicery/ct-j-chen',
   },
   interative: {
-    demo:
-      'https://drive.google.com/file/d/15rqg2bT5pQ_b3RITCBbLnYx0MXfbm6HA/preview',
+    demo: 'https://drive.google.com/file/d/15rqg2bT5pQ_b3RITCBbLnYx0MXfbm6HA/preview',
     website: 'https://iterative.ai/',
   },
 };
@@ -81,8 +74,7 @@ export const Link = {
 export const projects = [
   {
     image: tree,
-    text:
-      'HudsonAlpha Virtual Tech Challenge 2021- College / Professional - First Place. Trick or trees is an user-friendly scavenger hunt webapp takes the user through a treasure map of trees.',
+    text: 'HudsonAlpha Virtual Tech Challenge 2021- College / Professional - First Place. Trick or trees is an user-friendly scavenger hunt webapp takes the user through a treasure map of trees.',
     tech: [
       { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
@@ -101,8 +93,7 @@ export const projects = [
   },
   {
     image: newsProject,
-    text:
-      'News Explorer is a website that users could search for news by keyword and save while signing in.',
+    text: 'News Explorer is a website that users could search for news by keyword and save while signing in.',
     tech: [
       { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
@@ -129,8 +120,7 @@ export const projects = [
 
   {
     image: interative,
-    text:
-      'In the Iterative.ai landing website project, I worked in a team of three, created 34 reusable components, 150 commits, more than 50 PRs, finished in 3 weeks ,and presented it in Feb/2020.',
+    text: 'In the Iterative.ai landing website project, I worked in a team of three, created 34 reusable components, 150 commits, more than 50 PRs, finished in 3 weeks ,and presented it in Feb/2020.',
     tech: [
       { icon: 'css3', text: 'CSS' },
       { icon: 'js', text: 'JavaScript' },
@@ -146,8 +136,7 @@ export const projects = [
   },
   {
     image: author,
-    text:
-      'A customized personal website for a young author to publish her creation with font-size adjustment and dual-language feature.',
+    text: 'A customized personal website for a young author to publish her creation with font-size adjustment and dual-language feature.',
     tech: [
       { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
@@ -155,14 +144,12 @@ export const projects = [
       { icon: 'node', text: 'node.js' },
     ],
     techIcons: [{ techName: 'Storybook', techIcon: storybook }],
-    demo:
-      'https://drive.google.com/file/d/13sielUi8zZSQ7cG-aGolImvjEHPIlod7/preview',
+    demo: 'https://drive.google.com/file/d/13sielUi8zZSQ7cG-aGolImvjEHPIlod7/preview',
     codes: [],
   },
   {
     image: project3,
-    text:
-      "Around the US is a website that users could log in, customize their profiles, share their photos, and like others'.",
+    text: "Around the US is a website that users could log in, customize their profiles, share their photos, and like others'.",
     tech: [
       { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
@@ -189,8 +176,7 @@ export const projects = [
 
   {
     image: matching,
-    text:
-      'Matching Game with options of color, image, and input text cards. Built lightweight web components with simple publish-subscribe-patterns and no frameworks',
+    text: 'Matching Game with options of color, image, and input text cards. Built lightweight web components with simple publish-subscribe-patterns and no frameworks',
     tech: [
       { icon: 'css3', text: 'CSS' },
       { icon: 'js', text: 'JavaScript' },
@@ -206,8 +192,7 @@ export const projects = [
   },
   {
     image: pwp,
-    text:
-      'This is my website with the info of my web project portfolios, work experiences, and learning tracks.',
+    text: 'This is my website with the info of my web project portfolios, work experiences, and learning tracks.',
     tech: [
       { icon: 'react', text: 'React' },
       { icon: 'css3', text: 'CSS' },
@@ -260,16 +245,14 @@ export const projects = [
   },
   {
     image: iptracker,
-    text:
-      'Ip Address Tracker is a web page that users could input an Ip address and get the location information and map display. This project is part of the Frontend Mentor challenge.',
+    text: 'Ip Address Tracker is a web page that users could input an Ip address and get the location information and map display. This project is part of the Frontend Mentor challenge.',
     tech: [
       { icon: 'html5', text: 'HTML' },
       { icon: 'css3', text: 'CSS' },
       { icon: 'js', text: 'JavaScript' },
     ],
     website: 'http://ip-tracker-pw.surge.sh/',
-    demo:
-      'https://drive.google.com/file/d/1RRhFj9njkj8C-xyuSayMccWiP35ER23g/preview',
+    demo: 'https://drive.google.com/file/d/1RRhFj9njkj8C-xyuSayMccWiP35ER23g/preview',
     codes: [
       {
         button: 'Code',
@@ -279,8 +262,7 @@ export const projects = [
   },
   {
     image: project1,
-    text:
-      'A website with info on learning how to learn. This is my very first independent web project from Practicum.',
+    text: 'A website with info on learning how to learn. This is my very first independent web project from Practicum.',
     tech: [
       { icon: 'html5', text: 'HTML' },
       { icon: 'css3', text: 'CSS' },
@@ -297,8 +279,7 @@ export const projects = [
   },
   {
     image: project2,
-    text:
-      'A website with information on a bicycle journey across the USA. This is my second independent project from Practicum.',
+    text: 'A website with information on a bicycle journey across the USA. This is my second independent project from Practicum.',
     tech: [
       { icon: 'html5', text: 'HTML' },
       { icon: 'css3', text: 'CSS' },
@@ -315,8 +296,7 @@ export const projects = [
   },
   {
     image: project4,
-    text:
-      'A website with different base calculators including binary, octal, and more.',
+    text: 'A website with different base calculators including binary, octal, and more.',
     tech: [
       { icon: 'html5', text: 'HTML' },
       { icon: 'css3', text: 'CSS' },
